@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewApplication", "NewApplication\NewApplication.csproj", "{6C421528-C783-474B-9F20-7F22C35DDA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{26870A19-43E2-4C8E-A123-77BF4CA1FD70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularWithCore", "AngularWithCore\AngularWithCore.csproj", "{79F4BD8B-A981-4531-B357-DDF46C208304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C421528-C783-474B-9F20-7F22C35DDA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C421528-C783-474B-9F20-7F22C35DDA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C421528-C783-474B-9F20-7F22C35DDA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C421528-C783-474B-9F20-7F22C35DDA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26870A19-43E2-4C8E-A123-77BF4CA1FD70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26870A19-43E2-4C8E-A123-77BF4CA1FD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26870A19-43E2-4C8E-A123-77BF4CA1FD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26870A19-43E2-4C8E-A123-77BF4CA1FD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F4BD8B-A981-4531-B357-DDF46C208304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F4BD8B-A981-4531-B357-DDF46C208304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F4BD8B-A981-4531-B357-DDF46C208304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F4BD8B-A981-4531-B357-DDF46C208304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F5701A-B9C2-472E-9234-12174A3F6229}
+	EndGlobalSection
+EndGlobal

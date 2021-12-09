@@ -1,0 +1,38 @@
+﻿<h1>User Data</h1>  
+<p>This component demonstrates fetching member data from the server.</p>  
+<p *ngIf="!memberList"><em>Loading...</em></p>  
+<p>
+    <a [routerLink]="['/register-member']">Create New</a>
+</p> 
+<table class='table' *ngIf="memberList">  
+    <thead>  
+    <tr>  
+        <th>ID</th>  
+        <th>FirstName</th>  
+        <th>LastName</th>  
+        <th>Ssn</th>  
+        <th>AddressLine1</th>  
+        <th>AddressLine2</th>  
+        <th>City</th>  
+        <th>State</th>  
+        <th>Zip</th>  
+    </tr>  
+    </thead>  
+    <tbody>     
+    <tr *ngFor="let member of memberList">  
+        <td>{{ member.cin }}</td>
+        <td>{{ member.firstName }}</td>
+        <td>{{ member.lastName }}</td>
+        <td>{{ member.ssn }}</td>
+        <td>{{ member.addressLine1 }}</td>  
+        <td>{{ member.addressLine2 }}</td>  
+        <td>{{ member.city }}</td>  
+        <td>{{ member.state }}</td>  
+        <td>{{ member.zip }}</td>  
+        <td>  
+            <a [routerLink]="['/member/edit/', member.cin]">Edit</a> |  
+            <a [routerLink]="" (click)="delete(member.cin)">Delete</a>  
+        </td> 
+    </tr>  
+    </tbody>  
+</table>

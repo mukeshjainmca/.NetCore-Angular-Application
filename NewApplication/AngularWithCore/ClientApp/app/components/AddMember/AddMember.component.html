@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        label{
+            text-align:right;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <h3>User</h3>
+    <hr />
+    <form [formGroup]="memberForm" (ngSubmit)="save()" #formDir="ngForm" novalidate>
+        <div class="form-group row">
+            <label class=" control-label col-md-2" for="cin">ID</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" id="txtcin" formControlName="cin">
+                <span class="text-danger" *ngIf="memberForm.hasError('required', 'cin') && formDir.submitted">
+                    Cin is required.
+                </span>
+            </div>           
+            <label class="control-label col-md-2" for="firstName">First Name</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="firstName">
+                <span class="text-danger" *ngIf="memberForm.hasError('required', 'firstName') && formDir.submitted">
+                    First Name is required
+                </span>
+            </div>            
+        </div>      
+        <div class="form-group row">
+            <label class="control-label col-md-2" for="lastName">Last Name</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="lastName">
+                <span class="text-danger" *ngIf="memberForm.hasError('required', 'lastName') && formDir.submitted">
+                    Last Name is required
+                </span>
+            </div>            
+            <label class="control-label col-md-2" for="ssn">SSN</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="ssn">
+                <span class="text-danger" *ngIf="memberForm.hasError('required', 'ssn') && formDir.submitted">
+                    SSN is required
+                </span>
+            </div>
+        </div> 
+        <div class="form-group row">
+           
+            
+        </div> 
+        <div class="form-group row">
+            <label class="control-label col-md-2" for="addressLine1">Address Line1</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="addressLine1">
+            </div>
+            <label class="control-label col-md-2" for="addressLine2">Address Line2</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="addressLine2">
+            </div>
+        </div> 
+        <div class="form-group row">
+            <label class="control-label col-md-2" for="city">City</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="city" data-val="true">
+            </div>
+            <label class="control-label col-md-2" for="state">State</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="state">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="control-label col-md-2" for="zip">Zip</label>
+            <div class="col-md-4">
+                <input class="form-control" type="text" formControlName="zip">                
+            </div>            
+        </div>
+        <div class="form-group">
+            <div class="col-md-2"></div>
+                <button type="submit" class="btn btn-default">Save</button>
+                <button class="btn" (click)="cancel()">Cancel</button>
+            </div>
+</form>
+</body>
+</html>
