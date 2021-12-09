@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace_Old\\NewApplication\\API\\API.csproj": {}
+    "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace_Old\\NewApplication\\API\\API.csproj": {
+    "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace_Old\\NewApplication\\API\\API.csproj",
+        "projectUniqueName": "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\WorkSpace_Old\\NewApplication\\API\\API.csproj",
+        "projectPath": "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\API\\API.csproj",
         "packagesPath": "C:\\Users\\mjain\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace_Old\\NewApplication\\API\\obj\\",
+        "outputPath": "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

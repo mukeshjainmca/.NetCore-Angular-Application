@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace_Old\\NewApplication\\NewApplication\\NewApplication.csproj": {}
+    "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\NewApplication\\NewApplication.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace_Old\\NewApplication\\NewApplication\\NewApplication.csproj": {
+    "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\NewApplication\\NewApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace_Old\\NewApplication\\NewApplication\\NewApplication.csproj",
+        "projectUniqueName": "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\NewApplication\\NewApplication.csproj",
         "projectName": "NewApplication",
-        "projectPath": "C:\\WorkSpace_Old\\NewApplication\\NewApplication\\NewApplication.csproj",
+        "projectPath": "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\NewApplication\\NewApplication.csproj",
         "packagesPath": "C:\\Users\\mjain\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace_Old\\NewApplication\\NewApplication\\obj\\",
+        "outputPath": "C:\\Mukesh\\GITRepo\\DotNetCore-Angular\\NewApplication\\NewApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
